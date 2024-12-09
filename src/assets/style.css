@@ -150,3 +150,39 @@ input[type='number'] {
 .list li:hover .delete-btn {
   opacity: 1;
 }
+
+/* src/assets/style.css */
+
+/* 适配手机 */
+@media (max-width: 600px) {
+  body {
+    font-size: 16px;
+  }
+
+  .container {
+    width: 100%;
+    padding: 0 10px;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  h3 {
+    font-size: 18px;
+  }
+
+  h4 {
+    font-size: 16px;
+  }
+
+  .inc-exp-container {
+    flex-direction: column;
+  }
+
+  .inc-exp-container > div {
+    border-right: none;
+    border-bottom: 1px solid #dedede;
+    padding: 10px 0;
+  }
+}
