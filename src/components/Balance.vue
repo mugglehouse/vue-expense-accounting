@@ -8,7 +8,7 @@ const props = defineProps({
 </script>
 
 <template>
-  <h3>Balance</h3>
+  <h3>结余</h3>
   <h1 id="balance">${{ total }}</h1>
 </template>
 

@@ -13,7 +13,7 @@ const deleteTransaction = (id) => {
 </script>
 
 <template>
-  <h3>TransactionList</h3>
+  <h3>消费记录</h3>
   <ul id="list" class="list">
     <li
       v-for="transaction in transactions"
